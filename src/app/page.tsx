@@ -31,7 +31,7 @@ export default function IRPF() {
         <div className="max-w-[1400px] mx-auto flex flex-col md:grid md:grid-cols-3 items-center justify-between px-4 h-full gap-3 md:gap-4 relative z-10">
           
           <div className="flex justify-center md:col-start-2 order-1 md:order-none">
-            <div className="relative w-32 h-12 md:w-56 md:h-20 transition-transform duration-300 hover:scale-110">
+            <div className="relative top-3 w-32 h-12 md:w-56 md:h-20 transition-transform duration-300 hover:scale-110">
               <Image src="/logo_contabil.png" alt="Logo Reluz" fill className="object-contain" priority />
             </div>
           </div>
