@@ -99,21 +99,21 @@ export default function IRPF() {
         <div className="w-full rounded-md overflow-hidden shadow-2xl relative flex items-start justify-center min-h-[400px]">
             
             {/* Fazemos um loop para gerar as 3 páginas de uma vez */}
-            {[1, 2, 3].map((numPagina) => (
+            {[1, 2, 3].map((numFoto) => (
               <Image 
-                key={numPagina}
-                src={`/pagina${numPagina}.jpg`}
-                alt={`Página ${numPagina} do Guia IRPF`}
+                key={numFoto}
+                src={`/Foto${numFoto}.jpg`}
+                alt={`Página ${numFoto} do Guia IRPF`}
                 width={0}
                 height={0}
                 sizes="100vw"
                 style={{ 
                   width: '100%', 
                   height: 'auto',
-                  display: currentPage === numPagina ? 'block' : 'none' 
+                  display: currentPage === numFoto ? 'block' : 'none' 
                 }}
                 className="animate-in fade-in duration-300"
-                priority={numPagina === 1}
+                priority={numFoto === 1}
               />
             ))}
 
