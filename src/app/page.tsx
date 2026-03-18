@@ -40,7 +40,7 @@ export default function IRPF() {
             
             <div className="flex justify-start md:col-start-1 md:row-start-1">
               <a 
-                href="https://web.whatsapp.com/send?phone=551145431276&text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Reluz%20Cont%C3%A1bil." 
+                href="https://api.whatsapp.com/send?phone=551145431276&text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Reluz%20Cont%C3%A1bil." 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1.5 md:gap-2 bg-gradient-to-r from-[#b49444] to-[#8a7131] text-white px-3 py-2 sm:px-4 md:px-6 md:py-3 rounded-full font-bold text-[10px] sm:text-xs md:text-sm transition-all duration-300 hover:scale-105 active:scale-95 border border-[#e8d399]/30 whitespace-nowrap shadow-md w-full justify-center md:w-auto md:justify-start"
