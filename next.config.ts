@@ -1,11 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export', // Essencial para o GitHub Pages
-  basePath: '/FelipeMartinsReluz.github.io', // <-- TROQUE PELO NOME DO SEU REPO (ex: /irpf-site)
+  output: 'export', 
   images: {
-    unoptimized: true, // O GitHub Pages não suporta a otimização de imagens padrão do Next
+    unoptimized: true, 
   },
+  // REMOVA a linha do basePath se o site for o principal do seu perfil
 };
 
 export default nextConfig;
