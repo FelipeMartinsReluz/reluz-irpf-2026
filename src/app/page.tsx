@@ -102,7 +102,7 @@ export default function IRPF() {
             {[1, 2, 3].map((numPagina) => (
               <Image 
                 key={numPagina}
-                src={`/pagina${numPagina}.jpg`}
+                src={`/guia${numPagina}.jpg`}
                 alt={`Página ${numPagina} do Guia IRPF`}
                 width={0}
                 height={0}
